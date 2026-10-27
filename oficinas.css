@@ -149,7 +149,7 @@ h1,h2,h3 {
     background-color: transparent;
 }
 .filtro.ativo{
-    background-color: tinta;
+    background-color: var(--tinta);
     color: var(--branco);
 }
 
@@ -157,7 +157,7 @@ h1,h2,h3 {
     margin-top: 40px;
 }
 
-.oficinas{
+.oficina{
     padding: 32px 32px;
     border-top: 3px solid var(--tinta);
     display: flex;
@@ -193,7 +193,7 @@ h1,h2,h3 {
     font-weight: 600;
 }
 
-.oficinas-detalhes{
+.oficina-detalhes{
     width: 220px;
     font-size: 15px;
     display: flex;
