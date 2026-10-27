@@ -207,4 +207,28 @@ h1,h2,h3 {
     accent-color: var(--caixa-dagua);
 }
 
+@media (max-width: 800px) {
+        
+       .cartazes, .passos, .rodape-colunas{
+        flex-direction: column;
+        align-items: stretch;
+       }
+
+       .cartaz-principal h1{
+        font-size: 84px;
+       }
+}
+@media (max-width: 800px) {
+
+    .inscricao, .linha, .rodape-colunas {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .titulo-pagina {
+        font-size: 96px;
+    }
+
+}
+
 
